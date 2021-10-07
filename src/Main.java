@@ -26,7 +26,7 @@ public class Main {
         listaFrutas.remove("uva");
 
         // Adicionando a lista atualizada
-        saida += "Total de Frutas da lista após remover uva: " + listaFrutas.size();
+        saida += "\n\nTotal de Frutas da lista após remover uva: " + listaFrutas.size();
         saida += "\nFrutas na lista após remover uva: " + listaFrutas.toString();
         saida += "\nÍndice da fruta caju na lista: " + listaFrutas.indexOf("caju");
 
